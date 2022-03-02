@@ -29,11 +29,11 @@ then
 fi
 
 # TODO: Allow directories
-if [ ! -e "${target}" ]
-then
-  >&2 echo "Target does not exist: $target"
-  exit 1
-fi
+#if [ ! -e "${target}" ]
+#then
+#  >&2 echo "Target does not exist: $target"
+#  exit 1
+#fi
 
 if [ "$no_strict" = "true" ]
 then
